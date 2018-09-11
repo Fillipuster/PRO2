@@ -1,0 +1,9 @@
+Øvelsens formål er at undgå vi bare kigger på mængden af "n" for-loops og antage en potens.
+Da det inderste loop følger en eksponentiel stigning af dens iterator (j = j * 2), vil iteratoren hurtigt
+overstige "n" mængden, og derfor ikke køre for en betydelig mængde elementer.
+
+På grund af det inderste loop's korte operationsmængde (da dens iterator hurtigt overstiger "n"), anses den
+som værende konstant, og kan ignoreres.
+
+Derfor er svaret O(n)
+ - da kun det yderste loop har betydning.
